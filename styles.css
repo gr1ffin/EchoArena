@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+body {
+	margin: 0;
+	background: #ffffff;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+  color: rgb(66, 66, 66);
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  background: #0B4F6C;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+  padding-right: 100px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #01BAEF;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #01BAEF;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+h1 {
+    float: left;
+    font-size: 24px;
+    padding-left: 40px;
+    color: white;
+}
+
+p {
+    margin-left: 20px
+}
+
+h2 {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+p {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+ 
+h3 {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+margin  {
+  margin-left: 40px;
+}
+
+img { 
+  width: 1400px;
+  margin-left: 60px;
+}
